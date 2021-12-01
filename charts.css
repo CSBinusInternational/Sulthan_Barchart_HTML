@@ -1,0 +1,162 @@
+body {
+	background-color: rgb(0, 119, 255);
+}
+
+.BarTitle {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Border {
+	background-color: white;
+	padding-top: 2px;
+	padding-bottom: 25px;
+    margin-top: 10px;
+}
+
+.Dead {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.Survived {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.PieChartSurvived {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-image: conic-gradient( rgb(255, 0, 13) 62%, rgb(4, 0, 255) 38%);
+	margin: auto;
+}
+
+.GenderTitle {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Boys {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.Girls {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.PieChartGender {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-image: conic-gradient( rgb(4, 0, 255) 64%, rgb(255, 0, 0) 36%);
+	margin: auto;
+}
+
+
+.PieChartEmbark {
+    width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-image: conic-gradient(cyan 0% 0.1%, rgb(255, 145, 0) 0.1% 9%, red 9% 21%, blue 21% 69%);
+	margin: auto;
+}
+
+.Embark {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SSymbol {
+    Color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.CSymbol {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.QSymbol {
+    color: rgb(255, 123, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.Null {
+    color: cyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+.Companion {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.PieChartCompanion {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0% 39.65%, blue 39.65% 60.35%);
+    margin: auto;
+}
+
+.Alone {
+    color: blue;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Bring {
+    color: red;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Parch {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.NoParch {
+    color: red;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.OneParch {
+    color: blue;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.TwoParch {
+    color:cyan;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ThreeParch {
+    color: orange;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.PieChartParch {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(orange 0% 0.6%, cyan 0.6% 8.7%, blue 8.7% 13.1%, red 13.1% 77.4%);
+    margin: auto;
+}
+
+
